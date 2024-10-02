@@ -1,0 +1,55 @@
+[
+    { "project": "roa",
+      "category": [
+        { "name": "apps",
+          "service": [
+           {"eck": {
+               "nonprod": "6.17.0",
+               "uat": "6.17.0"
+             }
+           },
+           {"reloader": {
+            "nonprod": "6.17.0",
+            "uat": "6.17.0"
+          }
+        }
+          ]
+        },
+        { "name": "infrastructure",
+          "service": [
+           {"eck": {
+               "nonprod": "6.17.0",
+               "uat": "6.17.0"
+             }
+           },
+           {"reloader": {
+            "nonprod": "6.17.0",
+            "uat": "6.17.0"
+            }
+          }
+          ]
+        }
+      ]
+    },
+    { "project": "finvest",
+      "category": [
+        { "name": "apps",
+          "service": [
+           {"eck": {
+               "nonprod": "6.17.0",
+               "uat": "6.17.0"
+             }
+           }
+          ]
+        },
+        { "name": "infrastructure",
+          "service": [
+           {"eck": {
+               "nonprod": "6.17.0",
+               "uat": "6.17.0"
+             }
+           }
+          ]}
+      ]
+    }
+   ]
